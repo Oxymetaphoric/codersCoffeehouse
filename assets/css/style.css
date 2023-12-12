@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.block-label {
+  display: block;
+}
+
+.black-background {
+  background-color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merienda One", "Brush Script MT", cursive;
+}
+
+#home {
+  background-image: url("../images/coffeehouse.jpg");
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+
+.page-header {
+  height: 30vh;
+  background: center 75% / cover no-repeat;
+}
+
+.form-page-header {
+  background-image: url("../images/table.jpg");
+}
+
+.contact-boxed-container {
+  margin: 0 auto;
+  width: 66%;
+}
+
+.contact-box-left {
+  margin-top: -20px;
+  width: 250px;
+}
+
+contact-box-right {
+  margin-top: -20px;
+  text-align: center;
+  width: 250px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+header {
+  color: beige;
+}
+
+header > p {
+  color: white;
+}
+
+header {
+  background-color: black;
+}
+
+#drinks {
+  padding: 1rem 0;
+  margin-bottom: 80px;
+  background: url("../images/coffee-beans.jpg") center center / cover no-repeat
+    fixed;
+}
+
+.spacer {
+  clear: both;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+strong {
+  font-size: 1.3rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+nav {
+  padding: 1rem;
+}
+
+nav > a {
+  text-decoration: none;
+  color: beige;
+  margin: 1rem;
+}
+
+nav > a:hover {
+  color: silver;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+small {
+  font-style: italic;
+}
+
+img {
+  border-radius: 8px;
+  width: 96%;
+  margin: 2%;
+}
+
+#coffee-box {
+  background-color: brown;
+  position: relative;
+  left: 70px;
+  top: -15px;
+}
+
+#tea-box {
+  background-color: #6f4e37;
+  position: relative;
+  z-index: 1;
+}
+
+#cold-drinks-box {
+  background-color: chocolate;
+  margin: 1rem 0;
+  position: relative;
+  right: 70px;
+  top: -15px;
+}
+
+.reasons-box {
+  padding: 10px 5px 25px 5px;
+  border-radius: 8px;
+  width: 100%;
+  margin: 2%;
+  background-color: chocolate;
+  position: relative;
+  left: 20%;
+  top: 30px;
+}
+
+.drinks-box {
+  width: 33%;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.vertical-center {
+  position: relative;
+  top: 30%;
+}
+
+.one-third-width-column {
+  display: inline-block;
+  width: 33%;
+}
+
+.two-thirds-width-column {
+  display: inline-block;
+  width: 66%;
+}
+
+th,
+td {
+  border-bottom: 1px solid black;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: chocolate;
+}
+
+footer {
+  background-color: #6f4e37;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+footer > span {
+  color: silver;
+}
+
+footer > a {
+  color: beige;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 0.8rem;
+}
+
+footer > p {
+  color: silver;
+}
+
+fieldset {
+  border: none;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-left: 0.75rem;
+  margin-top: 20px;
+  padding: 0.75rem;
+  background-color: #5e361b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="reset"] {
+  margin-left: 0.75rem;
+  margin-top: 20px;
+  padding: 0.75rem;
+  background-color: white;
+  color: #5e361b;
+  border: 1px solid #5e361b;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[list="coffees"] {
+  height: 30px;
+  width: 90%;
+  padding-left: 10px;
+  margin: 0px auto;
+}
+
+/* overrides css above */
+input[list="coffees"] {
+  width: 45%;
+}
+
+textarea {
+  width: 96%;
+}
+
+#map-wrapper {
+  margin-bottom: 107px;
+  height: 300px;
+}
+
+label {
+  margin: 10px 15px 5px 0;
+}
+
+select {
+  height: 36px;
+  width: 100px;
+  padding-left: 10px;
+}
+
+form {
+  width: 700px;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 25px auto;
+  background-color: white;
+}
+
+legend {
+  font-size: large;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+#terms {
+  margin: 1.5rem 0 0 15px;
+  padding: 0.5rem;
+  border: 1px solid grey;
+  height: 200px;
+  width: 90%;
+  overflow: scroll;
+}
+
+.checkboxes-box div {
+  margin-top: 15px;
+}
+
+#reasons li {
+  margin-top: 5%;
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+
+.contact-boxes-container {
+  margin: 0 auto;
+  width: 66%;
+}
+
+.contact-box-left {
+  margin-top: -20px;
+  width: 250px;
+  float: left;
+}
+
+.contact-box-right {
+  margin-top: -20px;
+  text-align: right;
+  width: 250px;
+  float: right;
+}
+
+.contact-box-center {
+  margin: 0 auto;
+  text-align: center;
+  height: 250px;
+  width: 250px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
